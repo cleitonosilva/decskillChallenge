@@ -1,0 +1,35 @@
+.container-list{
+  max-height: 600px;
+  overflow-y: auto;
+
+
+  &::-webkit-scrollbar {
+    width: 10px;
+    height: 2em
+  }
+  &::-webkit-scrollbar-button {
+    background: #eee
+  }
+  &::-webkit-scrollbar-track-piece {
+    background: #eee
+  }
+  &::-webkit-scrollbar-thumb {
+    background:#777
+  }
+
+}
+
+.resume-panel{
+  color:#ffff;
+  font-weight: bold;
+
+  div{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+}
